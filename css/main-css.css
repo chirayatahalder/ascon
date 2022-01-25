@@ -1476,3 +1476,16 @@ input.form_btn {
 .active a{
     background: rgb(255, 8, 8)000 !important;
 }
+
+.owl-dots{
+    margin-top: -50px !important;
+    position: relative;
+    z-index: 9999999;
+}
+.owl-theme .owl-dots .owl-dot span {
+    background: var(--blue);
+}
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: var(--light-blue);
+}
