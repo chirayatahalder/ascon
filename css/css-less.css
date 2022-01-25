@@ -2,6 +2,10 @@
   width: 100% !important;
   height: 250px !important;
 }
+#banner-slider3 img {
+  width: 100% !important;
+  height: 250px !important;
+}
 .mobile-div {
   display: none;
 }
@@ -127,8 +131,54 @@
   }
 }
 .text-dark-yellow {
-  color: #ae6f0c;
+  color: var(--light-blue);
 }
 .project-overview-logo img {
-  width: 50px;
+  width: 40px;
+}
+.facility p {
+  font-size: 14px;
+  padding: 0 21px;
+}
+@media only screen and (max-width: 450px) {
+  .facility p {
+    padding: 0px !important;
+  }
+}
+.banner .content h1 {
+  font-size: 50px;
+  font-weight: 700;
+  color: #fff;
+}
+.golden-txt {
+  color: #ffb716;
+}
+@media screen and (min-width: 767px) and (max-width: 980px) {
+  .navbar .container-fluid {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+  }
+}
+.navbar .navbar-brand img {
+  height: 40px;
+}
+.download h3 {
+  font-size: 35px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  margin-top: 12px;
+}
+.download p {
+  font-size: 15px;
+  margin-bottom: 25px;
+}
+.btn-success {
+  -webkit-transition: ease-in;
+  transition: ease-in;
+}
+.btn-success:hover {
+  background-color: #e92626 !important;
+  -webkit-transition: ease-in;
+  transition: ease-in;
 }
