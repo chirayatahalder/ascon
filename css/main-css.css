@@ -991,6 +991,7 @@ flex-basis: 26%;
 
 .current-tab {
     background: var(--light-blue);
+    color: #fff;
 }
 
 
@@ -1531,6 +1532,7 @@ input.form_btn {
 
 .active a{
     background: rgb(255, 8, 8)000 !important;
+    color: #fff !important;
 }
 
 .owl-dots{
