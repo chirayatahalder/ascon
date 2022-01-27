@@ -1577,9 +1577,15 @@ input.form_btn {
 .modal {
     padding: 0 !important;
 }
-
+@media(max-width:991px){
+    .modal .close{
+        opacity: 1;
+        color: #fff;
+    }
+}
 .modal .close{
     font-size: 30px;
+    opacity: 1;
 }
 .modal .modal-header{
     border: none;
@@ -1588,15 +1594,22 @@ input.form_btn {
     font-size: 30px;
     margin-bottom: 12px;
 }
+
 .modal .contactform{
     margin: 12px;
 }
     .modal .modal-img {
         padding-left: 0;
+        padding-right: 0 !important;
     }
     .modal .modal-img img{
-
-        margin: 0 ;
         
+        margin: 0 ;
+        height: 460px;
     }  
-    
+    @media(max-width:450px){
+        .modal .modal-img img{
+            height: auto !important;
+        }
+
+    }
