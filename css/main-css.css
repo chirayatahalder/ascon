@@ -1307,6 +1307,10 @@ input.form_btn {
     opacity: 1
 }
 
+.fixed-form .submit:hover {
+    background: var(--light-blue);
+    color: #fff;
+}
 .fixed-form .submit {
     background-color: #fff;
     padding: 8.5px 20px;
@@ -1316,7 +1320,8 @@ input.form_btn {
     color: var(--blue);
     display: block;
     width: 100%;
-    border: 5px
+    border: 5px;
+    height: 45px;
 }
 
 .fixed-form .form-control{
@@ -1591,25 +1596,45 @@ input.form_btn {
     border: none;
 }
 .modal h3{
-    font-size: 30px;
-    margin-bottom: 12px;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    text-align: center;
 }
 
 .modal .contactform{
     margin: 12px;
 }
-    .modal .modal-img {
-        padding-left: 0;
-        padding-right: 0 !important;
-    }
+.modal .modal-img {
+    padding-left: 0;
+    padding-right: 0 !important;
+}
+.modal .modal-img img{
+    
+    margin: 0 ;
+    height: 460px;
+}  
+@media(max-width:450px){
     .modal .modal-img img{
-        
-        margin: 0 ;
-        height: 460px;
-    }  
-    @media(max-width:450px){
-        .modal .modal-img img{
-            height: auto !important;
-        }
-
+        height: auto !important;
     }
+
+}
+.modal-content{
+    width: 80%;
+    left: 80%;
+    transform: translate(-90%,0);
+}
+@media(max-width:425px){
+    .modal-content{
+    width: 80%;
+    left: 80%;
+    transform: translate(-85%,0);
+    }
+}
+
+@media(max-width:425px){
+    .nav>li>a {
+        padding: 10px 0;
+    }
+}
