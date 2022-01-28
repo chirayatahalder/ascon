@@ -1630,6 +1630,9 @@ input.form_btn {
     left: 80%;
     transform: translate(-85%,0);
     }
+    .content h3{
+        font-size: 30px;
+    }
 }
 
 @media(max-width:425px){
