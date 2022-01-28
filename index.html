@@ -1337,9 +1337,12 @@
 
     </div>
 
-    <!-- Side modal -->
+
+
+
+    <!-- Site load modal -->
     <section>
-        <a href="#" class="btn btn-lg btn-success" data-toggle="modal" data-target="#basicModal">Click to open Modal</a>
+        <!-- <a href="#" class="btn btn-lg btn-success" data-toggle="modal" data-target="#basicModal">Click to open Modal</a> -->
 
         <div class="modal fade" id="basicModal" tabindex="-1" role="dialog" aria-labelledby="basicModal"
             aria-hidden="true">
@@ -1832,7 +1835,11 @@
     </script>
 
 
-
+<script type="text/javascript">
+    $(window).on('load', function() {
+        $('#basicModal').modal('show');
+    });
+</script>
 
 
 </body>
